@@ -14,6 +14,7 @@
     display: flex;
     width: 60%;
     height: 70%;
+    border-radius: 10px;
   }
 
   h2 {
@@ -35,6 +36,7 @@
   #sedans {
     background: hsl(31, 77%, 52%);
     padding: 20px;
+    border-radius: 8px 0 0 8px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -95,6 +97,7 @@
   #luxury {
     background: hsl(179, 100%, 13%);
     padding: 20px;
+    border-radius: 0 8px 8px 0;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
