@@ -1,0 +1,101 @@
+* {
+  font-family: "Lexend Deca", sans-serif;
+}
+
+@media (max-width: 1440px) {
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsl(0, 0%, 95%);
+  }
+  main {
+    display: flex;
+    width: 60%;
+    height: 70%;
+  }
+
+  h2 {
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 2em;
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+
+  p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 0.8em;
+    line-height: 1.6em;
+    margin-top: 0;
+    margin-bottom: 60px;
+  }
+
+  #sedans {
+    background: hsl(31, 77%, 52%);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  #sedans button {
+    background: hsl(0, 0%, 95%);
+    border: 0;
+    color: hsl(31, 77%, 52%);
+    padding: 10px;
+    border-radius: 30px;
+  }
+
+  #sedans img {
+    width: 43px;
+  }
+
+  #suvs {
+    background: hsl(184, 100%, 22%);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  #suvs button {
+    background: hsl(0, 0%, 95%);
+    border: 0;
+    color: hsl(184, 100%, 22%);
+    padding: 10px;
+    border-radius: 30px;
+  }
+
+  #suvs img {
+    width: 43px;
+  }
+
+  #luxury {
+    background: hsl(179, 100%, 13%);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  #luxury button {
+    background: hsl(0, 0%, 95%);
+    border: 0;
+    color: hsl(179, 100%, 13%);
+    padding: 10px;
+    border-radius: 30px;
+  }
+
+  #luxury img {
+    width: 43px;
+  }
+}
+
+@media (max-width: 375px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+}
